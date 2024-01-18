@@ -16,7 +16,7 @@ mkYarnPackage rec {
   };
 
   yarnLock = "${src}/yarn.lock";
-  packageJSON = "${src}/package.json";
+  packageJSON = ./package.json;
 
   offlineCache = fetchYarnDeps {
     inherit yarnLock;
