@@ -14,6 +14,7 @@
 
   ccc = pkgs.callPackage ./pkgs/ccc {};
   devcontainer-cli = pkgs.callPackage ./pkgs/devcontainer-cli {};
+  pokemon-colorscripts = pkgs.callPackage ./pkgs/pokemon-colorscripts {};
   # some-qt5-package = pkgs.libsForQt5.callPackage ./pkgs/some-qt5-package { };
   # ...
 }
